@@ -654,9 +654,9 @@ main, section {
 
 @media screen and (max-width:760px) {
    
-  html{
+  /* html{
     font-size: 50%;
-  }
+  } */
 
   .main-container{
     width: 95%;
