@@ -652,7 +652,7 @@ main, section {
 
 /* homepage ( media query phone) */
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:500px) {
 
   .main-container{
     width: 95%;
