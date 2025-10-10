@@ -601,15 +601,21 @@ main, section {
     margin: 1rem 0;
   }
 
+  .hero-section .hero-img{
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
 
   .hero-section .hero-img img{
-  width: auto;
+  width: 100%;
   height: 22rem;
+  object-fit: cover;
   border-radius: 1rem;
 }
 
 .hero-section .choose-us{
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -655,7 +661,8 @@ main, section {
 @media screen and (max-width:760px) {
 
   .main-container{
-    width: 95%;
+    padding: 0 5%;
+    width: 100%;
   }
   
 .hero-section .hero-img{
