@@ -559,7 +559,7 @@ main, section {
 
 /* homepage (media query tablet) */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1020px) {
   
   .main-container{
     padding: 0 3%;
@@ -653,10 +653,6 @@ main, section {
 /* homepage ( media query phone) */
 
 @media screen and (max-width:760px) {
-   
-  /* html{
-    font-size: 50%;
-  } */
 
   .main-container{
     width: 95%;
@@ -670,7 +666,7 @@ main, section {
 
 .hero-section .hero-img img{
   width: 100%;
-  height: 20rem;
+  height: 22rem;
   object-fit: cover;
   border-radius: 1rem;
 }
