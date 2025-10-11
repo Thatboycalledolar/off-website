@@ -664,6 +664,10 @@ main, section {
     padding: 0 5%;
     width: 100%;
   }
+
+  .hero-text h1{
+    font-size: 3.6rem;
+  }
   
 .hero-section .hero-img{
   display: flex;
