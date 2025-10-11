@@ -660,14 +660,23 @@ main, section {
 
 @media screen and (max-width:760px) {
 
-  .main-container{
+.main-container{
     padding: 0 5%;
     width: 100%;
   }
 
-  .hero-text h1{
+.hero-section{
+    gap: 3rem;
+    padding: 0;
+  }
+
+.hero-section .hero-text h1{
     font-size: 3.6rem;
   }
+
+.hero-section .hero-text p{
+    font-size: 1.4rem;
+   }
   
 .hero-section .hero-img{
   display: flex;
@@ -693,6 +702,44 @@ main, section {
   gap: 2rem;
 }
 
+.about-us h2{
+    font-size: 2.8rem;
+  }
+
+.about-us p{
+    line-height: 2rem;
+   }
+
+
+.services h2{
+    font-size: 2.8rem;
+  }
+
+.services h3{
+  font-size: 1.8rem;
+}
+
+.services img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.testimonials h2{
+  font-size: 2.8rem;
+}
+
+.slide{
+  padding: 3.2rem;
+}
+
+.slide h3{
+  font-size: 1.2rem;
+}
+
+.slide p{
+  font-size: 1.4rem;
+}
+
 .footer-wrapper{
   flex-direction: column;
   gap: 5rem;
@@ -709,5 +756,5 @@ main, section {
   .footer-right h3{
     text-align: center;
   }
-
 }
+
