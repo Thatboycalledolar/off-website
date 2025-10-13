@@ -395,6 +395,7 @@ main, section {
   .contact-us{
     flex-direction: column;
     gap: 5rem;
+    padding-top: 2rem;
   }
 
   .contact-image{
