@@ -126,6 +126,10 @@ main, section {
   width: 100%;
 }
 
+.about-us-image{
+  width: 50%;
+}
+
 .about-us-image img{
   width: 53rem;
   height: 40rem;
@@ -485,6 +489,7 @@ main, section {
     gap: 3rem;
     padding: 3rem 0;
   }
+
 
   .about-us-image img{
     width: 100%;
