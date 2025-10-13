@@ -400,8 +400,24 @@ main, section {
   .contact-image{
     width: 100%;
     height: 40vh;
-    padding: 0 5%;
+    padding: 0 3%;
   }
+
+  .content-header{
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-header h2{
+  font-size: 2.8rem;
+  max-width: 65%;
+  text-align: center;
+ }
+
+ .contacts{
+  align-items: center;
+  text-align: center;
+ }
 
 
  .footer-wrapper {
@@ -444,6 +460,32 @@ main, section {
     width: 100%;
   }
 
+  .content-header h2{
+  font-size: 2.4rem;
+  max-width: 65%;
+  text-align: center;
+ }
+
+ .content-header p{
+  font-size: 1.2rem;
+  padding: .7rem 2rem;
+ }
+
+  .contacts{
+    padding: 5rem 3rem;
+  }
+
+  .contacts h3{
+    font-size: 2rem;
+  }
+
+  .info-cards h4{
+    font-size: 1.6rem;
+  }
+
+  .info-cards p{
+    font-size: 1.2rem;
+  }
 
 
 
