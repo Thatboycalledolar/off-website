@@ -365,7 +365,6 @@ main, section {
   }
   .navbar{
     width: 100%;
-    padding: 5%;
   }
   .navbar .menu-toggle {
     display: flex;
@@ -411,7 +410,7 @@ main, section {
 
   .about-us-image{
     width: 100%;
-    padding: 0 5%;
+    padding: 0 3%;
   }
 
   .about-us-image img{
@@ -436,7 +435,7 @@ main, section {
   .mission-vision{
     flex-direction: column;
     gap: 5rem;
-    padding: 0 5%;
+    padding: 0 3%;
   }
 
 
@@ -489,7 +488,7 @@ main, section {
 
   .about-us-image img{
     width: 100%;
-    height: auto;
+    height: 35rem;
   }
 
   .abouy-us-content h2{
@@ -500,6 +499,22 @@ main, section {
   .abouy-us-content p{
     font-size: 1.2rem;
     text-align: center;
+  }
+
+  .mission-vision{
+    padding: 0;
+  }
+
+  .mission-vision h2{
+    font-size: 2.5rem;
+  }
+
+  .mission-vision p{
+    font-size: 1.2rem;
+  }
+
+  .mission-vision img{
+    width: 7rem;
   }
 
 .footer-wrapper{
